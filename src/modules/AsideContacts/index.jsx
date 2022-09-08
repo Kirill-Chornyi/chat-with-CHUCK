@@ -35,12 +35,18 @@ export class AsideContacts extends Component {
                     isLoaded: true,
                     items: result.chats,
                 });
-                this.lastMesageFilter()
+                setTimeout(
+                  () => {
+                    this.lastMesageFilter()
                 this.sortFunction(
                   this.state.olastJudyMsg,
                   this.state.olastAliceMsg,
                   this.state.olastVelazquesMsg,
-                  this.state.olastBarreraMsg)
+                  this.state.olastBarreraMsg);
+                  },
+                  1 * 50
+                );
+                
             },
             (error) => {
                 this.setState({
