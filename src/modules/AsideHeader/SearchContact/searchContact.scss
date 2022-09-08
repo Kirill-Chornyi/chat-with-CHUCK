@@ -1,0 +1,25 @@
+
+
+.search_contact_container{
+    background-color: white;
+    border-bottom: 1px solid #3c4153;
+    padding: 10px 5px;
+    display: flex;
+    max-width: 290px;
+    cursor: pointer;
+    min-width: 75px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: left;
+    &:hover {background-color: rgb(175, 175, 175);}
+    &:active {background-color: rgb(84, 84, 84);}}
+    
+
+@media (max-width:515px){
+    .contact_name{display: none !important;}
+    .Avatar_cont{align-self: center;
+        justify-self: center;
+        padding: 10px;}
+    .search_contact_container{padding: 0;
+    min-width: none;}
+}

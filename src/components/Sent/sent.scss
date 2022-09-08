@@ -1,0 +1,19 @@
+$color1:#3c4153;
+$color2:#cad0d2;
+$fsz: 22px;
+
+.sent_box {
+    margin: 0 15px 5px 33%;
+    max-width: 400px;
+    min-width: 10px;
+    height: auto;
+    background-color: $color2;
+    border-radius: 25px;
+    padding:1px 15px;}
+.sent_text {
+    font-size: 18px;
+    color: $color1;}
+
+    @media (max-width:515px){.sent_box {margin: 0 0 5px 15px;}
+    .sent_text {
+        font-size: 12px;}}

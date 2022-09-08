@@ -1,0 +1,70 @@
+
+
+.last_mes_container{
+    background-color: white;
+    border-bottom: 1px solid #3c4153;
+    padding: 10px 5px;
+    display: flex;
+    max-width: 290px;
+    cursor: pointer;
+    min-width: 75px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    &:hover {background-color: rgb(175, 175, 175);
+        .rec_box {background-color: rgb(175, 175, 175)}}
+    &:active {background-color: rgb(84, 84, 84);
+        .rec_box {background-color: rgb(84, 84, 84)}}
+    
+    .last_mes_cont{
+        flex-grow:1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h5 {margin: 2px;}}
+    .rec_text {
+        font-size: 10px;
+        margin-top: 5px;
+        color: #3c4153;
+        max-height: 40px;
+        overflow: hidden;
+    }
+    .rec_box {
+        flex-grow:1;
+        max-height: 40px;
+        border-radius: 0;
+        margin: 0 5px 5px;
+        background-color: white;
+        padding:0;
+        overflow: hidden;
+        max-width: 180px;
+        min-width: 50px;}
+
+}
+.last_mes {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    .time_cont{
+        margin: 0;
+        padding: 0;
+        min-width: 40px;
+        height: 30px;
+        line-height: 10px;}
+    .time_text{
+        font-size: 10px;
+        color: #3c4153;
+        line-height: 10px;
+    }
+
+
+}
+
+@media (max-width:515px){
+    .last_mes_cont{display: none !important;}
+    .Avatar_cont{align-self: center;
+        justify-self: center;
+        padding: 10px;}
+    .last_mes_container{padding: 0;
+    min-width: none;}
+}

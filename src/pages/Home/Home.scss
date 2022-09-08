@@ -1,0 +1,16 @@
+.main_flex {
+    max-width: 1000px;
+    min-width: 350px;
+    max-height: 720px;
+    min-height: 300px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #3c4153;
+}
+
+.a_side{
+    resize:horizontal;
+    max-width: 300px;
+    min-width: 75px;}
+.main_side{flex-grow: 1;}

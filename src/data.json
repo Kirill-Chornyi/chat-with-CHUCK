@@ -1,0 +1,38 @@
+{"chatsData": [
+    {   "sender":"Judy Hobs",
+        "recipient":"all",
+        "msgText":"Quickly come to the meeting room 1B! We have a big server issue",
+        "msgTime":"17/04/22 4:00"},
+    {   "sender":"all",
+        "recipient":"Judy Hobs",
+        "msgText":"I'm having breakfast right now, can't you wait for 10 minutes?",
+        "msgTime":"17/04/22 4:05"},
+    {   "sender":"Judy Hobs",
+        "recipient":"all",
+        "msgText":"We are losing money! Quick!",
+        "msgTime":"17/04/22 4:07"},
+    {   "sender":"Alice Freeman",
+        "recipient":"all",
+        "msgText":"Still can't believe that you left me there",
+        "msgTime":"17/04/22 10:00"},
+    {   "sender":"all",
+        "recipient":"Alice Freeman",
+        "msgText":"I'm so sorry, but everything is fine with you?",
+        "msgTime":"17/04/22 10:02"},
+    {   "sender":"Alice Freeman",
+        "recipient":"all",
+        "msgText":"You are the worst!",
+        "msgTime":"17/04/22 10:07"},
+    {   "sender":"Velazques",
+        "recipient":"all",
+        "msgText":"don't come here. Judy will kill you",
+        "msgTime":"17/04/22 4:10"},
+    {   "sender":"Barrera",
+        "recipient":"all",
+        "msgText":"How about coffee? 😉",
+        "msgTime":"17/04/22 7:17"}          
+
+
+
+  ]}
+

@@ -1,0 +1,21 @@
+$color1:#3c4153;
+$color2:#cad0d2;
+$fsz: 22px;
+
+.rec_box {
+    margin: 0 33% 5px 15px;
+    max-width: 400px;
+    width: auto;
+    min-width: 10px;
+    height: auto;
+    background-color: $color1;
+    border-radius: 25px;
+    padding:1px 15px;}
+.rec_text {
+    width:auto;
+    font-size: 18px;
+    color: $color2;}
+
+    @media (max-width:515px){.rec_box {margin: 0 0 5px 15px;}
+    .rec_text {
+        font-size: 12px;}}

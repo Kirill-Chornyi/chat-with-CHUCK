@@ -1,0 +1,27 @@
+.Avatar_cont{height: 50px;}
+
+.Avatar {border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;}
+
+
+.icon.good
+{
+        display: inline-block;
+        top: 0.15em;
+        width: 1em;
+        height: 1em;
+        line-height: 1;
+        color:green;
+        overflow: hidden;
+        border: 0.015em solid green;
+        border-radius: 4em;
+        box-shadow: #999 0 1px 1px;
+        background-color:white;
+        padding-left: 1px;
+        position: relative;
+        right:-35px;
+        top: -15px;
+}
+

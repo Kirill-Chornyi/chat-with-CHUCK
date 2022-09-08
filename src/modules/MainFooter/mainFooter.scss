@@ -1,0 +1,35 @@
+.main_footer {
+    min-width: 200px;
+    border-radius: 1px;
+    box-shadow: 2px 2px 2px 2px rgb(181, 181, 181),-2px -2px 2px 2px rgb(181, 181, 181) ; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    & button {border: none;
+        background-color: none;}}
+
+.msg_text {
+    max-width: 550px;
+    max-height: 240px;
+    width: 80%;
+    min-width: 270px;
+    border-radius: 50px;
+    padding: 15px 15px;
+    resize: none;
+    text-align: left;
+    font-size: 16px;
+    line-height: 18px;}
+
+.send {  background-color: none;
+    border: none;
+    color:#3c4153;
+    // padding: 16px 16px;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+    position: absolute;
+    right:75px;
+    top: 30px;
+}    
