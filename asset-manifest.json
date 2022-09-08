@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/chat-with-CHUCK/static/css/main.bf602e52.css",
-    "main.js": "/chat-with-CHUCK/static/js/main.e2326d0e.js",
+    "main.js": "/chat-with-CHUCK/static/js/main.f8ae02d9.js",
     "static/media/search.svg": "/chat-with-CHUCK/static/media/search.3dd06a87bed0d8e41f3d90016a1b02fd.svg",
     "static/media/SendB.svg": "/chat-with-CHUCK/static/media/SendB.033edaa618e4e8f97daa8ef2f4da593c.svg",
     "index.html": "/chat-with-CHUCK/index.html",
     "main.bf602e52.css.map": "/chat-with-CHUCK/static/css/main.bf602e52.css.map",
-    "main.e2326d0e.js.map": "/chat-with-CHUCK/static/js/main.e2326d0e.js.map"
+    "main.f8ae02d9.js.map": "/chat-with-CHUCK/static/js/main.f8ae02d9.js.map"
   },
   "entrypoints": [
     "static/css/main.bf602e52.css",
-    "static/js/main.e2326d0e.js"
+    "static/js/main.f8ae02d9.js"
   ]
 }
