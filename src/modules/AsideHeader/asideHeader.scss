@@ -49,4 +49,6 @@
     overflow: hidden;
 }
 @media (max-width:567px){.search_input, .svg_search{opacity: 0%;}
-.AsideHeader .Avatar_cont{padding-left: 30%;}}
+.AsideHeader .Avatar_cont{
+    max-width: 70px;
+    padding-left: 30%;}}

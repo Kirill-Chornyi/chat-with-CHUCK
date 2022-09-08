@@ -14,7 +14,7 @@
     max-width: 550px;
     max-height: 240px;
     width: 80%;
-    min-width: 270px;
+    min-width: 200px;
     border-radius: 50px;
     padding: 15px 15px;
     resize: none;
@@ -33,3 +33,6 @@
     right:75px;
     top: 30px;
 }    
+
+
+@media (max-width:567px){.send{right:45px;}}
